@@ -1,4 +1,4 @@
-submit_script <- function(WorkingDirectory = "C:/Users/vlasenko/YandexDisk/R_Programming/2_ProgrammingAssignment2", SourceName = "cachematrix.R") {
+submit_script <- function(WorkingDirectory = "C:/Users/vlasenko/YandexDisk/R_Programming/ProgrammingAssignment2", SourceName = "cachematrix.R") {
 
 rm(list = ls())
 ## WorkingDirectory <- "C:/Users/vlasenko/YandexDisk/R_Programming/2_ProgrammingAssignment2"
