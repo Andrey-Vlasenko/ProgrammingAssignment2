@@ -1,5 +1,5 @@
 # Below are two functions that are used to create a special
-# object that stores a numeric matrix and cache's its invertion
+# object that stores a numeric matrix and cache's its invertion.
 
 ## This function creates a special "matrix" object 
 ## that can cache its inverse
@@ -16,6 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 		setsolve = setsolve,
 		getsolve = getsolve)
 }
+
 
 ## This function computes the inverse of the special "matrix" 
 ## returned by makeCacheMatrix above. If the inverse has 
@@ -45,5 +46,6 @@ cacheSolve <- function(x, ...) {
 		message("Matrix is not invertible!") 
 		return(m)
 		### Probably we could do something else
+		### but we won't :)
 	}
 }
